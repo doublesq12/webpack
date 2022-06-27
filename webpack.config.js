@@ -14,5 +14,9 @@ module.exports = {
       filename: 'index.html',
     }),
     new CleanWebpackPlugin(),
-]
+  ],
+  devServer: {
+    //port: 3000, // 指定端口/
+    open: true//自动打开页面
+}
 }
