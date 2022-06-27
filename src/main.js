@@ -8,3 +8,4 @@ import imgUrl from './assets/1.gif'
 const img = document.createElement("img")
 img.src = imgUrl
 document.body.appendChild(img)
+import './assets/fonts/iconfont.css'
